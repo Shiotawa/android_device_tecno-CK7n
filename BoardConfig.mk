@@ -100,6 +100,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP := $(DEVICE_PATH)/properties/vendor.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
+BOARD_RAMDISK_USE_LZ4 := true
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
